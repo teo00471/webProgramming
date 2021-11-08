@@ -1,0 +1,87 @@
+body{
+    background: rgb(231, 231, 231);
+    text-align: center;
+}
+h1{
+    color:rgb(29, 7, 7);
+    font: bold 20px verdana, sans-serif;
+}
+
+hgroup:nth-child(1) {
+    color:rgb(10, 100, 40);
+}
+#menu {
+    background: rgb(25,40,25);
+    color: rgb(58, 190, 54);
+}
+#menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana, sans-serif;
+    }
+
+aside {
+    top:0px;
+    float: right; 
+    background: #CCCCCC;
+    padding: 5px 15px;
+    border: solid rgb(10, 100, 40);
+    width:15%
+}
+section {
+    border: solid rgb(10, 100, 40);
+    float:left;
+    width:80%
+    
+}
+#pie {
+    clear: both; 
+    text-align: center; 
+    padding: 20px; 
+    border-top: 2px solid #999999;
+}
+
+article {
+    background: rgb(250, 248, 232);
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+    }
+    article footer {
+    text-align: right;
+    }
+time {
+    color: #999999;
+    }
+figcaption {
+    font: italic 14px verdana, sans-serif;
+    }
+/* página 108
+ para referenciar en css se usa el tipo de etiqeta, clase, nombre, herencia 
+* {margin: 0px;padding: 0px;} aplica los estilos a todos los elementos 
+p { font-size: 20px } tipo de etiqueta
+.parbody { font-size: 20px } clase
+p.parbody { font-size: 20px } solo aplica los cambios a los elementos hijos tipo p 
+#menu { font-size: 20px } nombre identificador (id)
+    para los elemenntos con atributo name 
+        p[name=”mitexto”] { font-size: 20px } aplica los cambios a los elementos con este nombre
+        p[name^=”mi”] { font-size: 20px } aplica los cambios a los elementos que su mobre iinicia con mi
+        p[name$=”mi”] { font-size: 20px } aplica los cambios a los elementos que su mobre terminan en mi
+        p[name*=”mi”] { font-size: 20px } aplica los cambios a los elementos que su mobre conntenga mi
+p:nth-child(2){background: #999999;} 
+    *{margin: 0px;}
+    p:nth-child(odd){background: #999999;} afecta a las etiquetas p que son hijos pares de otra
+    p:nth-child(even){background: #CCCCCC;} afecta a las etiquetas p que son hijos pares de otra
+    tambiem podemos afectar los hijos: firstchild, last-child y only-child
+    p:last-child{background: #999999;}
+    :not(p){margin: 0px;    clase, etiqueta, o id para escluir la aplicación de los estilos }
+    div > p {margin: 0px;} aplica los estilos a los elementos de la derecha siiempre y cuando sean hijos del puesto a la izquierda de >
+    p.mitexto2 + p{color: #990000;} aplica el estilo a las etiquetas p que esta antecedida o hija de otra p con la  clase mitexto2 
+    p.mitexto2 - p{color: #990000;} aplica el estilo a las etiquetas p hermanas que estan antecedidas o son hijas de otras p con la  clase mitexto2 
+    border: 1px solid #999999;  genera el borde a la etiqueta que se le aplique 
+    padding 5px 15px   le agrega espacio al texto 5px vertical 15px horizontal (margen interior del contenedor)
+    margin: 0px esta instrucción se utiliza para tener la margen en lo minimo posible (margen exterior)
+    header, section, footer, aside, nav, article, figure, figcaption,hgroup{display: block;} estos son nuevos elemenntos de html5
+    #pie {clear: both; text-align: center; padding: 20px; border-top: 2px solid #999999;} clear: both; nos permite devuelver al documento su flujo normal
+*/

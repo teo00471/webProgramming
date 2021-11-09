@@ -1,16 +1,23 @@
+/* texto alineado  al centro 
+cambia color del fondo*/
 body{
     background: rgb(231, 231, 231);
     text-align: center;
 }
+
+/* cambia tipo de letra  
+cambia color del texto*/
 h1{
     color:rgb(29, 7, 7);
     font: bold 20px verdana, sans-serif;
 }
 
+/* cambia color de los hijos pares*/
 hgroup:nth-child(1) {
     color:rgb(10, 100, 40);
 }
 #menu {
+    display: line;
     background: rgb(25,40,25);
     color: rgb(58, 190, 54);
 }

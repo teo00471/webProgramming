@@ -36,6 +36,11 @@ aside {
     border: solid rgb(10, 100, 40);
     width:15%
 }
+section .agrupar img{
+    border-radius: 20%;
+    margin-left: 100px;
+}
+
 section {
     border: solid rgb(10, 100, 40);
     float:left;
